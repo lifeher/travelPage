@@ -1,0 +1,483 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/*body {
+    background: url(../images/bg-1.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-position-top: 100px;
+}*/
+
+
+.videoBox {
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    z-index: -10; 
+    overflow: hidden; 
+    background-image: none; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.videoBox>video {
+    position: fixed;
+    width: 100%; 
+    visibility: visible; 
+    z-index: -10; 
+}
+.grid {
+    width: 100%;
+    height: 100%;
+    background: url(../images/grid.png);
+    z-index: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+.navBar {
+    width: 100%;
+    height: 80px;
+    background-color: #383E4C;
+    position: fixed;
+    z-index: 1000;
+}
+.navBar-height {
+    width: 100%;
+    height:80px;
+}
+.menuList {
+    width: 800px;
+    height: 120px;
+    margin: 0 auto;
+    list-style-type: none;
+    /*line-height: 120px;
+    text-align: center;*/
+
+}
+.menu {
+    width: 130px;
+    height: 50px;
+    border: 1px solid #646d7c;
+    background-color: #383E4C;
+    /*background-color: red;*/
+    float: left;
+    margin: 16px 5px;
+    
+}
+.menu:hover {
+    background-color: #49505f;
+    /*color: #fff;*/
+    transition-duration: 0.6s; /*设置“淡出淡入”、擦除的渲染效果*/
+}
+.menu a {
+    display: inline-block;
+    height:50px;
+    width: 120px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;/*#8b8f99*/
+    text-decoration: none;  /*去除链接下划线*/
+}
+.menu.active {
+    background-color: #49505f;
+}
+
+.page {
+    width: 100%;
+    height: 578px;
+    /*border: 1px solid red;*/
+}
+
+/* 首页 */
+.homePage {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.homePage-title {
+    width: 100%;
+    height: 100px;
+    margin-top: 15%;
+    font-size: 100px;
+}
+.homePage p {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+/* 关于我们 */
+.aboutUs {
+    width: 1045px;
+    height: 1300px;
+    margin: 10px auto;
+}
+.aboutUs-content {
+    width: 85%;
+    height: 44%;
+    /*border: 1px solid red;*/
+    margin: 1% auto;
+}
+.center {
+    width: 33.3%;
+    float: left;
+    padding: auto;
+    box-sizing: border-box;
+}
+.content-box {
+    width: 260px;
+    margin:auto;
+    background-color: #f2f2f2;
+}
+.content-box-img {
+    width: 100%;
+    height: 32%;
+    overflow: hidden;
+}
+.content-box-title {
+    color: blue;
+    font: 1.4em "微软雅黑";
+    margin: 10px 22px;
+}
+.content-box-detailed {
+    color: #333333;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 21px;
+}
+.contentBtn {
+    margin: 30px auto;
+    width: 50%;
+    height: 7%;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content-box-btn-green {
+    background-color: green;
+}
+.content-box-btn-blue {
+    background-color: #1686C1;
+}
+.content-box-btn-red {
+    background-color: #852406;
+}
+.content-box-btn-green:hover {
+    background-color: #1ec335;
+    transition-duration: 0.6s;
+}
+.content-box-btn-blue:hover {
+    background-color: #6bbde8;
+    transition-duration: 0.6s;
+}
+.content-box-btn-red:hover {
+    background-color: #e65326;
+    transition-duration: 0.6s;
+}
+.content-bigBox {
+    width: 40%;
+    height: 50%;
+    /*border: 1px solid blue;*/
+    float: left;
+    margin-right: 29px;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+}
+.content-bigBox.leftBox {
+    margin-left: -284px
+}
+.content-bigBox-img {
+    width: 100%;
+    height: 32%;
+    overflow: hidden;
+}
+.content-bigBox-title {
+    color: #666666;
+    font: 30px "微软雅黑";
+    margin: 10px 35px;
+}
+.content-bigBox-detailed {
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 35px;
+}
+.content-bigBox-btn-read {
+    width: 150px;
+    height: 45px;
+    color: #666666;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 200px;
+}
+.content-bigBox-btn-read:hover {
+    background-color: #c1b7b7;
+    transition-duration: 0.6s;
+}
+
+/****服务****/
+.service {
+    width: 1045px;
+    height: 2460px;
+    /*border: 1px solid red;*/
+    margin: 10px auto;
+    overflow: hidden;
+}
+.service-text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 50px auto;
+}
+.service-text h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px #aaa;
+    padding-top: 20px;
+}
+
+.service-text p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+.service-content {
+    margin-top: 100px;  
+    width: 100%;
+    height: 1288px; 
+
+}
+
+.service-box-center {
+    width: 25%;
+    float: left;
+    padding: auto;
+    box-sizing: border-box;
+}
+.service-box {
+    width: 240px;
+    margin:auto;
+    background-color: #f2f2f2;
+}
+.service-box-img {
+    width: 100%;
+
+}
+.service-box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.service-box-detailed,.service-bigBox-detailed {
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 20px;
+    color: #666;
+}
+.service-box-btn {
+    width: 120px;
+    height: 40px;
+    color: #666666;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    margin: 18px auto;
+    margin-bottom: 10px;
+}
+.service-box-btn:hover {
+    background-color: #c1b7b7;
+    transition-duration: 0.6s;
+}
+
+.service-bigbox {
+    width: 100%;
+    height: 750px;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.service-bigBox-img {
+    width: 100%;
+}
+.service-bigBox-title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/******用户信息反馈******/
+.contact-box {
+    width: 840px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    /*border: 1px solid red;*/
+
+}
+.contact-box h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px #333;
+    color:#fff;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.contact-text {
+    height: 100px;
+    background-color: #f2f2f2;
+    opacity: 0.4;
+    border-radius: 7px;
+    line-height: 30px;
+}
+.contact-content {
+    height: 290px;
+    /*border: 1px solid red;*/
+    padding: 40px 0;
+
+}
+.contact-input-box input {
+    display: block;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 100%;
+    
+    background: rgba(255,255,255,0.3);
+    border-radius: 7px;
+    /*line-height: 20px;*/
+    font-size: 20px;
+    border: 0;
+}
+.contact-box-btn {
+    width: 100px;
+    height: 45px;
+    background-color: #262628;
+    border: 1px solid #fff;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 22px;
+    border-radius: 7px;
+    float: right;
+    margin-top: 30px;
+}
+.contact-box-btn:hover {
+    background-color: #f2f2f2;
+    color: #262628;
+}
+.contact-input-box {
+    float: left;
+
+}
+.contact-text-box,.contact-input-box {
+    width: 350px;
+    height: 250px;
+
+}
+.contact-text-box {
+    float: right;
+    background: rgba(255,255,255,0.3);
+    border-radius: 7px;
+    font-size: 20px;
+}
+.think {
+    height: 150px;
+    background-color: #f2f2f2;
+    opacity: 0.4;
+    border-radius: 7px;
+    text-align: center;
+}
+.copyRight {
+    margin-top: 200px;
+    height: 80px;
+    background-color: #f2f2f2;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 80px;
+    /*color: #fff;*/
+    font-size: 20px;
+}
+
+.loading {
+    width: 100%;
+    height: 234px;
+    background: #f2f2f2;
+    position: relative;
+}
+.loading2 {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    -webkit-animation: loading2 1s linear 0s infinite;
+
+}
+.loadingBox2 span {
+    position: absolute;
+    top: 96px;
+    left: 44%;
+    z-index: 100;
+    /*color: red;*/
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-animation: textColor 1s linear 0s infinite;
+}
+@keyframes textColor {
+    0% {
+        color: red;
+        text-shadow: 0px 0px 1px #f19206;
+    }
+    50% {
+        color: #f3360e;
+        text-shadow: 0px 0px 3px red;
+    }
+    100% {
+        color: red;
+        text-shadow: 0px 0px 1px #f19206;
+    }
+}
+.loadingCircle1,.loadingCircle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    /*position: absolute;*/
+}
+.loadingCircle2 {
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 7px;
+}
+@keyframes loading2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.top {
+    position: fixed;
+    right: 20px;
+    bottom: 200px;
+    display: none;
+}
