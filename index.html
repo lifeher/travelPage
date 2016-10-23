@@ -8,50 +8,233 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css" media="screen">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Travelpage</h1>
-      <h2 class="project-tagline">旅游网站</h2>
-      <a href="https://github.com/lifeher/travelPage" class="btn">View on GitHub</a>
-      <a href="https://github.com/lifeher/travelPage/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/lifeher/travelPage/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <div class="navBar">
+        <ul class="menuList">
+            <li class="menu js-menuBtn active" data-page="homePage"><a href="#">首页</a></li>
+            <li class="menu js-menuBtn" data-page="aboutUs"><a href="#">热门景点</a></li>
+            <li class="menu js-menuBtn" data-page="service"><a href="#">推荐景点</a></li>
+            <li class="menu js-menuBtn" data-page="contact"><a href="#">反馈</a></li>
+            <li class="menu js-menuBtn" data-page="external"><a href="html/game.html">小游戏</a></li>
+        </ul>
+    </div>
+    <div class="navBar-height"></div>
+    
+    <div class="videoBox" >
+        <video autoplay="true" loop="true" muted="" src="media/video.mp4" type="video/mp4"></video>
+        <div class="grid"></div>
+    </div>
+        
+    <!-- 首页 -->
+    <div class="homePage page">
+        <div class="homePage-title">HomePage</div>
+        <p>A Simpel WebPage Of Travel</p>
+    </div>
+    <!-- 关于我们 -->
+    <a href="#hot"></a>
+    <div id="aboutUs" class="aboutUs page">
+        <div class="aboutUs-content">
+            <div class="center">
+                <div class="content-box">
+                    <img class="content-box-img" src="images/hot0-0.jpg" alt="">
+                    <div class="content-box-title">山东岛、厦门鼓浪屿</div>
+                    <div class="content-box-detailed">山东岛+厦门鼓浪屿三天高铁团 <br>
+                    ★游：D线纯玩团畅玩3天，等你来搞<br>
+                    ★观：精华景点一网打尽+品味岭南特色小吃<br>
+                    ★酒店位于鼓浪屿对面，轻松到达鼓浪屿<br>
+                    ★温馨提示：线路为机票+酒店打包产品，鼓浪屿对面，海岸国际酒店海景房2晚
+                    </div>
+                    <a href="html/detail-00.html"><div class="contentBtn content-box-btn-green">more</div></a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="content-box">
+                    <img class="content-box-img" src="images/hot1-0.jpg" alt="">
+                    <div class="content-box-title">九寨沟+黄龙 </div>
+                    <div class="content-box-detailed">九寨沟+黄龙 （VIP套餐 ）<br>
+                    ★东进西出，不走回头路，巴士进出九寨沟，悠闲旅途，领略旅途不一样的风景。<br>
+                    ★特别安排享用高原美味特色三珍宝，羌族火锅，赠送时令水果；<br>
+                    ★四川美景一网打尽：九寨沟、昭化古城、成都锦里、</div>
+                    <a href="html/detail-01.html?images/hot1-0.jpg"><div class="contentBtn content-box-btn-blue">more</div></a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="content-box">
+                    <img class="content-box-img" src="images/hot2-0.jpg" alt="">
+                    <div class="content-box-title">桂林+阳朔+兴坪</div>
+                    <div class="content-box-detailed">桂林阳朔兴坪全景三日游 <br>★游：船游兴坪漓江最精华山水画卷【兴坪漓江】<br>
+                    ★观：观赏世界溶洞奇观【银子岩】<br>
+                    ★探：探寻十大艳遇之地【阳朔西街】<br>
+                    ★享：享特色风味小吃，一饱口福，超值享受！</div>
+                    <a href="html/detail-02.html?images/hot2-0.jpg"><div class="contentBtn content-box-btn-red">more</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="content-bigBox leftBox">
+                <img class="content-bigBox-img" src="images/hot3-0.jpg" alt="">
+                <div class="content-bigBox-title">云南+昆明+大理+丽江+玉龙雪山6日5晚跟团游(5钻)·携程自营『私享游艇』品国际5星 饕餮盛宴</div>
+                <div class="content-bigBox-detailed">★【团队自营】全国会员独立成团，全程5星+舌尖云南+私人游艇+扎染体验。<br>
+                ★ 【豪门之旅】vip席观看《印象丽江》+5餐特色美食+6个贴心赠送<br>
+                ★ 【爆款特卖】2成人出行每单最高立减1400元，手慢无！APP下单更优惠！<br>
+                ★ 【导游+精选线路】五星导服保障+</div>
+                <a href="html/detail-03.html"><div class="contentBtn content-bigBox-btn-read">Read more</div></a>
+        </div>
+        <div class="content-bigBox">
+                <img class="content-bigBox-img" src="images/hot4-0.jpg" alt="">
+                <div class="content-bigBox-title">上海+杭州+苏州+乌镇+南京+无锡6日5晚跟团游(5钻)·超享受 4晚5星+1晚宿乌镇内 0利赢人气 双飞</div>
+                <div class="content-bigBox-detailed">★惠游爆款：4晚五星酒店，1晚乌镇西栅内精品客栈，超享受！<br>
+                ★ 惠游江南：三国城，乌镇西栅，虎丘，寒山寺，西湖，城隍庙！<br>
+                ★ 惠游承诺：精挑导游，规范操作，透明行程，专业地接社！</div>
+                <a href="html/detail-04.html"><div class="contentBtn content-bigBox-btn-read">Read more</div></a>
+        </div>
+    </div>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <!-- 服务 -->
+    <a href="#service"></a>
+    <div id="service" class="service page">
+        <div class="service-text">
+            <h2>推 荐 景 点</h2>
+            <p>我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆<br/> 去了不同的地方，看了不同的风景，知道了不同的事，感悟了不同的人生  <br/>一个人，一条路，人在途中，心随景动，也许孤单，也许快乐</p>
+        </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+        <div class="service-content">
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui0-0.jpg" alt="">
+                    <div class="service-box-title">海南三亚5日4晚跟团游(5钻)·双11限量抢购</div>
+                    <div class="service-box-detailed">★国旅首创产品，销量领先100%纯玩0购物！成就“好评率高达98%”的明星产品<br>
+                    ★ 感恩回馈：两人出行立减300，四人出行立减800，6人出行最高立减1500元！<br>
+                    ★ 全程连住红树林王国，只含人气最高景点，保证15%空座率，独立成团，金.牌导游</div>
+                    <a href="html/detail-05.html"><div class="service-box-btn">Reat it</div></a>
+                </div>
+            </div>
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui1-0.jpg" alt="">
+                    <div class="service-box-title">赏枫游·北京5日跟团游(5钻)·五星爸妈放心游 只愿子女放心 爸妈开心</div>
+                    <div class="service-box-detailed">★全程国际五星酒店，享饕餮京味美食，带爸妈看尽帝都玉脉如龙！ <br>
+                    ★  我们用爸妈的节奏看帝都，我们所有的努力，只为博爸妈一笑！<br>
+                    ★  本产品每周六出发班期由携程金_牌导游全程提供导游服务</div>
+                    <a href="html/detail-06.html"><div class="service-box-btn">Reat it</div></a>
+                </div>
+            </div>  
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui2-0.jpg" alt="">
+                    <div class="service-box-title">摄影之旅·深圳2日1晚跟团游·西冲露营+烧烤+CS野战+单车</div>
+                    <div class="service-box-detailed">
+                    ★ 纯玩！无自费！0购物！可升级入住民宿<br>
+                    ★ 西冲是中国最美的八大沙滩之一，细沙如银，海风习习，晚上露营浪漫与刺激！<br>
+                    ★ 长达5公里的沿海观光车道，无污染的海水清澈碧蓝，岸边绿树成荫！</div>
+                    <a href="html/detail-07.html"><div class="service-box-btn">Reat it</div></a>
+                </div>
+            </div>
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui3-0.jpg" alt="">
+                    <div class="service-box-title">长沙+张家界+天门山+湘西+凤凰6日5晚跟团游(5钻)·性价比超棒</div>
+                    <div class="service-box-detailed">★赠376元大礼包，早订享最高1200元立减！<br>
+                    ★ 全程精选高品酒店 武陵源2晚连住免行李搬运之苦！精致行程热搜景点一网打尽！<br>
+                    ★ 确保15%空座率，明星导游深度讲解！精选特色湘菜美食，全程无购物、无自费！</div>
+                    <a href="html/detail-08.html"><div class="service-box-btn">Details</div></a>
+                </div>
+            </div> 
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui4-0.jpg" alt="">
+                    <div class="service-box-title">广西南宁+靖西+巴马5日4晚+德天大瀑布+通灵大峡谷+百魔洞+百鸟岩</div>
+                    <div class="service-box-detailed">★远离城市的喧嚣和污染，到“世外桃源”－巴马修身养性！<br>
+                    ★ 游览亚洲第一大、世界第四大跨国瀑布——【德天跨国大瀑布】<br>
+                    ★ 【通灵大峡谷】长约280 0米，宽200米，深300米，是一个天然的植物天国</div>
+                    <a href="html/detail-09.html"><div class="service-box-btn">Details</div></a>
+                </div>
+            </div>
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui5-9.jpg" alt="">
+                    <div class="service-box-title">摄影之旅·西宁+青海湖+德令哈+敦煌+嘉峪关+张掖+祁连+门源+兰州9日8晚跟团游·导游全程、贯穿丝绸之路+青海湖、双卧</div>
+                    <div class="service-box-detailed">
+                    ★ 20人以上安排深圳导游全程陪同<br>
+                    ★ 贯穿丝绸之路+青海湖，融合景观多样化，真正的户外深度游<br>
+                    ★ 西北大环线，感受特快列车给您带来不一样的美景</div>
+                    <a href="html/detail-10.html"><div class="service-box-btn">Details</div></a>
+                </div>
+            </div>
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui6-0.jpg" alt="">
+                    <div class="service-box-title">神农架5日4晚跟团游(4钻)·『良心正品』仙境神农 深度纯玩 动车往返</div>
+                    <div class="service-box-detailed">★产品经理良心之作，宜昌进出，避免直飞航班无法降落神农架造成的舟车劳顿。<br>
+                    ★ 去程游三峡大坝，回程船游西陵峡，完美“切割”宜昌至神农架长时间行车。<br>
+                    ★ 深度纯玩，剔除“坑爹”的官门山、神农祭坛等景点，所游景点均是精华、经典。</div>
+                    <a href="html/detail-11.html"><div class="service-box-btn">Details</div></a>
+                </div>
+            </div>
+            <div class="service-box-center">
+                <div class="service-box">
+                    <img class="service-box-img" src="images/tui7-0.jpg" alt="">
+                    <div class="service-box-title">巴厘岛 蓝梦岛海底漫步+浮潜+香蕉船+独木舟水上3日游</div>
+                    <div class="service-box-detailed">★中文向导服务+超高性价比，畅玩蓝梦岛人气水上项目，精彩活动乐不停<br>
+                    ★ 漫步海底和浮潜看海底世界，海藻滩涂巡游感受热带海岛风光<br>
+                    ★ 加99元，即可享有舒服惬意的SPA，令您的午后更轻松。</div>
+                    <a href="html/detail-12.html"><div class="service-box-btn">Details</div></a>
+                </div>
+            </div>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+            <div style="clear:both"></div><!-- 清除浮动 --> 
+            <div class="loading">
+                <div class="loadingBox2">
+                    <span>Loading...</span>
+                    <div class="loading2">
+                        <div class="loadingCircle1"></div>
+                        <div class="loadingCircle2"></div>
+                    </div>
+                </div>
+            </div>  
+            <div class="service-bigbox">
+                <img class="service-bigBox-img" src="images/4-5.jpg" alt="">
+                <div class="service-bigBox-txt"></div>
+                <div class="service-bigBox-title">沉默--苦不堪言 我喝水，为他人解难 --仓央嘉措</div>
+                <div class="service-bigBox-detailed">“住进布达拉宫，我是雪域最大的王。流浪在拉萨街头，  我是世间最美的情郎。”偶然间读到仓央嘉措的诗时，被西藏那片神奇的地方迷住了。<br/><br/> 
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+最近又看了《藏地情书》，又重温他的爱情诗句，依然是震撼与感动，西藏的天有多高，景色就有多美。<br/><br/> 
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+原来只有在那广阔天地的净土，才能还原做个真实的人；终于明白了，在都市的高楼林立上，在无情的且错杂的竞争中，在蜗居的斗室里失去了很多纯净的东西，原来少了带有生命原质的土壤，怎能生长原本简单至美的心情和爱情？西藏圣地，矗立在云端，是梦想中的天空之城。<br/><br/> 
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+纯净的天与地、简单的藏民，好像这里与外隔绝，路上那些背包客的身影让我羡慕，踏上净土开始，他们都在感受、收获这片土地给予他们心灵上的震撼与感动，就算你是个没有任何宗教信仰的人也会被那与身高同等长的朝拜所感动至泪落，这样的人间天堂怎不让人向往？
+                    <a href="html/detail-13.html"><div class="service-box-btn">Read more</div></a>
+                </div>
+            </div>
+        </div>      
+    </div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/lifeher/travelPage">Travelpage</a> is maintained by <a href="https://github.com/lifeher">lifeher</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
+    <!-- 意见反馈 --> 
+    <a href="#contact"></a>  
+    <div id="contact" class="contact-box">
+        <h1>您的反馈</h1>
+        <div class="contact-text">为了能给您提供更好的体验，以及更加优质的服务<br> 我们珍惜您的每一次访问和每一次反馈，您的意见和建议会让我们变得更好！<br> 您的支持是我们不懈努力的动力！
+        </div>
+        <div class="contact-content">
+            <div class="contact-input-box">
+                <input type="text" placeholder="姓名">
+                <input type="text" placeholder="邮箱">
+                <input type="text" placeholder="内容">
+                <div class="contact-box-btn">发送</div>
+            </div>
+            <textarea class="contact-text-box" placeholder="您的建议..."></textarea>
+        </div>
+        
+    </div>
+    <div class="top"><img src="images/top.png" alt=""></div>
+    <!-- 感谢 -->
+    <div class="think">
+        <h1>感谢您的访问!</h1>
+        <p>我将继续努力为您提供更好的体验 <br> try my best!</p>
+    </div>
+    <!-- 网站信息 -->
+    <div class="copyRight">Copyright © 2016.design by 王永志！</div>
+  <script src="index.js"></script>
   </body>
 </html>
